@@ -16,16 +16,16 @@ Create the ops dict variable in python before running the analysis functions
 * Remeber to edit for the specific parameters of your imaging experiemnts *
 Define analysis parameter (edit to change conditions)
 ops = {
-    # Savitzky-Golay filtering parameters
+    ###Savitzky-Golay filtering parameters
     'window_length': 5, #
     'polyorder': 2,
-    # Peak detection parameters
+    ###Peak detection parameters
     'norm_factor' :  30, # percentile to normalize data
     'height' : 0.0, # minimum height a peak must be
     'width' : 1, # minimum width of peak
     'dist' : 3,  # minimum distance between peaks
     'prom' : 0.005, # difference between adjacent peaks
-    # flux calculation parameters
+    ###flux calculation parameters
     't_line' :  3.17, # time of 1 line in rasterscan in ms
     'sanity' : False # boolean for plotting data for sanity checks
 }
