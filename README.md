@@ -1,6 +1,8 @@
-This set of code involves two main parts, an ImageJ macro for getting a line intensity plot along a cortical capillary in the rodent 
+This code works on .csv generated in ImageJ of a line intensity plot along a cortical capillary in the rodent 
 somatosensory cortex from in vivo 2 photon imaging. The vessels selected should be as staight and perpendicular to the axis of raster scanning as 
-possible. The user will need to record imaging metadata to know the travel time (raster scan line time) and pixel size for esitmation of RBC flux
+possible.  The user should select a sutible line width and trace down the center of the vessel and then get an Intensity line profile. 
+This should be saved as a .csv file for analysis.
+The user will need to record imaging metadata to know the travel time (raster scan line time) and pixel size for esitmation of RBC flux
 from this data. For installing ImageJ macros please see: https://imagej.net/ij/developer/macro/macros.html , and for general ImageJ information
 see https://imagej.net/ij/.
 
